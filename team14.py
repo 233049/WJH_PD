@@ -6,7 +6,7 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'The name the team gives to itself' # Only 10 chars displayed.
+team_name = 'Domination' # Only 10 chars displayed.
 strategy_name = 'The name the team gives to this strategy'
 strategy_description = 'How does this strategy decide?'
     
@@ -24,8 +24,7 @@ def move(my_history, their_history, my_score, their_score):
     # The most recent round is my_history[-1] and their_history[-1].
     
     # Analyze my_history and their_history and/or my_score and their_score.
-    # Decide whether to return 'c' or 'b'.
-    
+    # Decide whether to return 'c' or 'b'.	
     return 'c'
 
     
